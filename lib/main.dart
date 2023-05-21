@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:born_to_prophecy/screens/home_screen.dart';
 
 void main() {
   runApp(const MyApp());
@@ -9,6 +10,11 @@ class MyApp extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    return Container();
+    return const MaterialApp(
+      debugShowCheckedModeBanner: true, // Set debug mode to true
+      home: HomeScreen(), // Set HomeScreen as the home screen
+    );
   }
 }
+
+
