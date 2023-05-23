@@ -64,10 +64,13 @@ flutter:
   assets:
     - assets/images/background/1.png
     - assets/images/background/2.png
+    - assets/images/background/3.png
+    - assets/images/background/4.png
     - assets/images/welcome.png
     - assets/images/back_button.png
     - assets/images/born_to_prophecy.png
     - assets/images/saly.png
+    - assets/images/modal.png
 
   # An image asset can refer to one or more resolution-specific "variants", see
   # https://flutter.dev/assets-and-images/#resolution-aware
